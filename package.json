@@ -1,0 +1,14 @@
+{
+  "name": "com.atthree.menu-system",
+  "version": "0.1.0",
+  "displayName": "Menu System",
+  "description": "uGUI menus for Unity 6: screen stack with transitions and back button, pause menu, settings screen (volume, resolution, quality) that saves itself, confirm dialogs, no-code buttons and one-click menu templates.",
+  "unity": "6000.0",
+  "author": {
+    "name": "Atthree",
+    "url": "https://github.com/Atthree"
+  },
+  "license": "MIT",
+  "keywords": [],
+  "dependencies": {}
+}
