@@ -9,6 +9,28 @@
     "url": "https://github.com/Atthree"
   },
   "license": "MIT",
-  "keywords": [],
-  "dependencies": {}
+  "keywords": [
+    "unity",
+    "unity3d",
+    "unity6",
+    "upm",
+    "upm-package",
+    "unity-package",
+    "gamedev",
+    "csharp",
+    "ugui",
+    "menu",
+    "main-menu",
+    "pause-menu",
+    "settings-menu",
+    "options-menu",
+    "ui",
+    "textmeshpro",
+    "gamepad",
+    "screen-stack",
+    "game-settings"
+  ],
+  "dependencies": {
+    "com.unity.ugui": "2.0.0"
+  }
 }

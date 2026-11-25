@@ -1,7 +1,13 @@
 {
     "name": "Atthree.Menus",
     "rootNamespace": "Atthree.Menus",
-    "references": [],
+    "references": [
+        "UnityEngine.UI",
+        "Unity.TextMeshPro",
+        "Unity.InputSystem",
+        "Atthree.SceneLoading",
+        "Atthree.Audio"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
@@ -9,6 +15,22 @@
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [],
-    "versionDefines": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.inputsystem",
+            "expression": "1.0.0",
+            "define": "ATTHREE_INPUT_SYSTEM"
+        },
+        {
+            "name": "com.atthree.scene-loader",
+            "expression": "0.1.0",
+            "define": "ATTHREE_SCENE_LOADER"
+        },
+        {
+            "name": "com.atthree.audio-manager",
+            "expression": "0.1.0",
+            "define": "ATTHREE_AUDIO"
+        }
+    ],
     "noEngineReferences": false
 }

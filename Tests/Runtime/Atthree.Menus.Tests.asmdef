@@ -3,8 +3,11 @@
     "rootNamespace": "Atthree.Menus.Tests",
     "references": [
         "Atthree.Menus",
+        "UnityEngine.UI",
+        "Unity.TextMeshPro",
         "UnityEngine.TestRunner",
-        "UnityEditor.TestRunner"
+        "UnityEditor.TestRunner",
+        "Atthree.Audio"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
@@ -17,6 +20,12 @@
     "defineConstraints": [
         "UNITY_INCLUDE_TESTS"
     ],
-    "versionDefines": [],
+    "versionDefines": [
+        {
+            "name": "com.atthree.audio-manager",
+            "expression": "0.1.0",
+            "define": "ATTHREE_AUDIO"
+        }
+    ],
     "noEngineReferences": false
 }
